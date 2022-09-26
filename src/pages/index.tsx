@@ -4,6 +4,8 @@ import HomeHero from '../components/HomeHero';
 import Experience from '../components/Experience/Index';
 import Projetos from '../components/Projetos';
 import Conhecimentos from '../components/conhecimentos';
+import FormContato from '../components/FormContato';
+import Footer from '../components/Rodape/Footer';
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
         <Experience />
         <Projetos />
         <Conhecimentos />
+        <FormContato />
+        <Footer />
       </main>
     </HomeContainer>
   );
