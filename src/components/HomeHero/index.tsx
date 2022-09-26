@@ -35,6 +35,19 @@ export default function HomeHero() {
             </div>
             {'\u007D'}
           </CodeItem>
+          <CodeItem>
+            <span className="infos">Desire</span> {'\u007B'}
+            <div>
+              Job:{' '}
+              <span
+                className="payload
+              "
+              >
+                True
+              </span>
+            </div>
+            {'\u007D'}
+          </CodeItem>
         </InfosContainer>
       </div>
     </Container>

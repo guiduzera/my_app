@@ -79,6 +79,57 @@ export const TextContainer = styled.section`
   }
 `;
 
-export const InfosContainer = styled.section``;
+export const InfosContainer = styled.section`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+`;
 
-export const CodeItem = styled.pre``;
+export const CodeItem = styled.pre`
+  background: ${({ theme }) => theme.gradient};
+  padding: 2rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 300;
+  color: #fff;
+  width: 24rem;
+  align-self: flex-start;
+  transition: 1s;
+
+  @media (max-width: 1450px) {
+    width: 18rem;
+    font-size: 0.8rem;
+    padding: 1.5rem;
+  }
+
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
+
+  &:hover {
+    filter: brightness(1.2);
+  }
+
+  &:last-child {
+    align-self: center;
+  }
+
+  > div {
+    margin: 0.2rem 0;
+    margin-left: 1rem;
+  }
+
+  span.infos {
+    color: #c38cdd;
+  }
+
+  span.payload {
+    color: #7ac7e3;
+  }
+
+  span.comment {
+    color: ${({ theme }) => theme.text};
+    margin-bottom: 1rem;
+    display: block;
+  }
+`;
