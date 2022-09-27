@@ -25,7 +25,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       html: `<p><b>Email:</b> ${senderMail}<br /><b>Menssagem:</b> ${content}</p>`,
       replyTo: senderMail
     };
-    transporter.sendMail(message);
+    await transporter.sendMail(message);
     return res.status(200).json({ message: 'Success' });
   } catch (error) {
     return res.status(500).json({ error: true, message: error.message });
