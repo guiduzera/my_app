@@ -30,7 +30,7 @@ export const ContainerItem = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 15rem;
+    max-width: 19rem;
     transition: 0.5s;
     h1 {
       color: ${({ theme }) => theme.primary};

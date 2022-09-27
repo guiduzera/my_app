@@ -12,7 +12,7 @@ export default function ExperienceItem({
   subtitle
 }: ItemProps) {
   return (
-    <ContainerItem>
+    <ContainerItem data-aos="fade-up">
       <div>
         <h1>{title}</h1>
         <h2>{description}</h2>

@@ -4,7 +4,7 @@ import picture from '../../assets/perfilGithub.jpeg';
 
 export default function HomeHero() {
   return (
-    <Container>
+    <Container data-aos="fade-up">
       <img src={picture} alt="my pic" />
       <div>
         <TextContainer>
@@ -12,7 +12,7 @@ export default function HomeHero() {
           <h2>me chamo Guilherme</h2>
         </TextContainer>
         <InfosContainer>
-          <CodeItem>
+          <CodeItem data-aos="zoom-in">
             <span className="comment">//My apresentation</span>
             <span className="infos">Infos</span> {'\u007B'}
             <div>
@@ -35,7 +35,7 @@ export default function HomeHero() {
             </div>
             {'\u007D'}
           </CodeItem>
-          <CodeItem>
+          <CodeItem data-aos="zoom-in">
             <span className="infos">Desire</span> {'\u007B'}
             <div>
               Job:{' '}

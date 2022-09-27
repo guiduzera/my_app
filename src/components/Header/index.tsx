@@ -5,7 +5,7 @@ const Header = () => (
   <Container>
     <ul>
       <LinkHeader title="Home" path="/" />
-      <LinkHeader title="Projetos" path="/projetos" />
+      <LinkHeader title="Projetos" path="/projetos" includes />
     </ul>
   </Container>
 );

@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Link from 'next/link';
 import { useRouter } from 'next/router';
@@ -6,15 +7,21 @@ import { LinkContainer } from './styles';
 interface Props {
   title: string;
   path: string;
+  includes?: boolean;
 }
 
-export default function LinkHeader({ title, path }: Props) {
+export default function LinkHeader({ title, path, includes = false }: Props) {
   const router = useRouter();
 
-  const isActive = router.pathname === path;
+  const verifyIfTrue = () => {
+    if (includes) {
+      return router.pathname.includes(path);
+    }
+    return router.pathname === path;
+  };
 
   return (
-    <LinkContainer isActive={isActive}>
+    <LinkContainer isActive={verifyIfTrue()}>
       <Link href={path}>
         <a>{title}</a>
       </Link>
