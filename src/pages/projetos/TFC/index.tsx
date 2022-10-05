@@ -24,9 +24,9 @@ export default function index() {
       </Head>
       <Header />
       <BannerProjeto
-        title="project 1"
+        title="TFC"
         imgLink="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
-        type="Website"
+        type="App FullStack"
       />
       <main>
         <p>

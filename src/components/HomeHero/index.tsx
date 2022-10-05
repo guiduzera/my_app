@@ -33,6 +33,15 @@ export default function HomeHero() {
                 18
               </span>
             </div>
+            <div>
+              Stack:{' '}
+              <span
+                className="payload
+              "
+              >
+                FullStack
+              </span>
+            </div>
             {'\u007D'}
           </CodeItem>
           <CodeItem data-aos="zoom-in">

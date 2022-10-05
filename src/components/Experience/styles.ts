@@ -73,10 +73,6 @@ export const ContainerItem = styled.div`
     }
   }
   @media (max-width: 700px) {
-    &:nth-child(even) > div {
-      margin-left: 4rem;
-      margin-top: 0;
-    }
     &:hover > div {
       transform: translateY(0);
     }

@@ -10,28 +10,28 @@ export default function Projetos() {
       <SectionTitle title="Ultimos projetos" />
       <section>
         <ProjetoItem
-          title="projeto 1"
-          description="Webdite"
-          imgUrl="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
-          path="/projetos/projeto1"
+          title="TFC"
+          description="app fullstack"
+          imgUrl="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/54813091"
+          path="/projetos/TFC"
         />
         <ProjetoItem
-          title="projeto 1"
-          description="Webdite"
+          title="Trybesmith"
+          description="backend"
           imgUrl="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
-          path="/projetos/projeto1"
+          path="/projetos/trybesmith"
         />
         <ProjetoItem
-          title="projeto 1"
-          description="Webdite"
+          title="Recipe App"
+          description="frontend website"
           imgUrl="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
-          path="/projetos/projeto1"
+          path="/projetos/recipe-app"
         />
         <ProjetoItem
-          title="projeto 1"
-          description="Website"
+          title="blogsAPI"
+          description="backend"
           imgUrl="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
-          path="/projetos/projeto1"
+          path="/projetos/blogsAPI"
         />
       </section>
       <button type="button">

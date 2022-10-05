@@ -27,28 +27,28 @@ export default function index() {
         style={{ display: 'flex', gap: '2rem', flexDirection: 'column' }}
       >
         <ProjetoComponent
-          title="porjeto 1"
-          type="tipo 1"
+          title="TFC"
+          type="app fullstack"
           imgLink="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
-          path="protect01"
+          path="TFC"
         />
         <ProjetoComponent
-          title="porjeto 1"
-          type="tipo 1"
+          title="trybesmith"
+          type="app backend"
           imgLink="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
-          path="protect01"
+          path="trybesmith"
         />
         <ProjetoComponent
-          title="porjeto 1"
-          type="tipo 1"
+          title="recipe-app"
+          type="app front-end"
           imgLink="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
-          path="protect01"
+          path="recipe-app"
         />
         <ProjetoComponent
-          title="porjeto 1"
-          type="tipo 1"
+          title="blogsAPI"
+          type="app backend"
           imgLink="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
-          path="protect01"
+          path="blogsAPI"
         />
       </main>
     </ProjetoContainer>
