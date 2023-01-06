@@ -13,7 +13,7 @@ export default function HomeHero() {
         </TextContainer>
         <InfosContainer>
           <CodeItem data-aos="zoom-in">
-            <span className="comment">//My apresentation</span>
+            <span className="comment">// My presentation</span>
             <span className="infos">Infos</span> {'\u007B'}
             <div>
               Name:{' '}
