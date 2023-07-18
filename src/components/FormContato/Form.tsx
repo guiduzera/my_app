@@ -52,7 +52,7 @@ export default function Form() {
   }
 
   return (
-    <FormContainer data-aos="fade-up" onSubmit={handleSubmit}>
+    <FormContainer data-aos="fade-up">
       <Input
         placeholder="Nome"
         value={nome}
@@ -69,7 +69,7 @@ export default function Form() {
         value={mensagem}
         onChange={({ target }) => setMensagem(target.value)}
       />
-      <button type="submit" disabled={loading}>
+      <button type="submit" disabled={loading} onClick={handleSubmit}>
         ENVIAR
       </button>
     </FormContainer>

@@ -26,7 +26,7 @@ export default function ProjetoItem({
         </div>
       </section>
       <button type="button">
-        <Link href={path}>
+        <Link href={path} legacyBehavior>
           <a>
             saiba mais <AiOutlineRightCircle />
           </a>

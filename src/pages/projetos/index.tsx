@@ -28,27 +28,27 @@ export default function index() {
       >
         <ProjetoComponent
           title="TFC"
-          type="app fullstack"
-          imgLink="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
+          type="App fullstack"
+          imgLink="/TFC.png"
           path="TFC"
         />
         <ProjetoComponent
           title="trybesmith"
-          type="app backend"
-          imgLink="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
+          type="App backend"
+          imgLink="/trybesmith.jpg"
           path="trybesmith"
         />
         <ProjetoComponent
-          title="recipe-app"
-          type="app front-end"
+          title="bank-simulator"
+          type="App fullstack"
           imgLink="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
-          path="recipe-app"
+          path="bank-simulator"
         />
         <ProjetoComponent
-          title="blogsAPI"
-          type="app backend"
-          imgLink="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
-          path="blogsAPI"
+          title="car_shop"
+          type="App backend"
+          imgLink="/car_shop.png"
+          path="car_shop"
         />
       </main>
     </ProjetoContainer>

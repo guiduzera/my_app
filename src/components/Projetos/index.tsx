@@ -11,31 +11,31 @@ export default function Projetos() {
       <section>
         <ProjetoItem
           title="TFC"
-          description="app fullstack"
-          imgUrl="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/54813091"
+          description="App fullstack"
+          imgUrl="/TFC.png"
           path="/projetos/TFC"
         />
         <ProjetoItem
           title="Trybesmith"
-          description="backend"
-          imgUrl="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
+          description="App backend"
+          imgUrl="/trybesmith.jpg"
           path="/projetos/trybesmith"
         />
         <ProjetoItem
-          title="Recipe App"
-          description="frontend website"
-          imgUrl="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
-          path="/projetos/recipe-app"
+          title="Bank simulator"
+          description="App fullstack"
+          imgUrl="/TFC.png"
+          path="/projetos/bank-simulator"
         />
         <ProjetoItem
-          title="blogsAPI"
-          description="backend"
-          imgUrl="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
-          path="/projetos/blogsAPI"
+          title="car_shop"
+          description="App backend"
+          imgUrl="car_shop.png"
+          path="/projetos/car_shop"
         />
       </section>
       <button type="button">
-        <Link href="/projetos">
+        <Link href="/projetos" legacyBehavior>
           <a>ver todos os projetos</a>
         </Link>
       </button>

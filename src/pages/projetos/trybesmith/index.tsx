@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Head from 'next/head';
+import { AiOutlineGithub } from 'react-icons/ai';
 import BannerProjeto from '../../../components/BannerProjeto';
 import Header from '../../../components/Header';
 import { DetailsProjects } from '../../../styles/ProjetoStyles';
@@ -25,18 +26,27 @@ export default function index() {
       <Header />
       <BannerProjeto
         title="trybeSmith"
-        imgLink="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
+        imgLink="/trybesmith.jpg"
         type="App BackEnd"
       />
       <main>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          quaerat aut, sed sapiente libero asperiores doloremque saepe unde
-          eveniet expedita dolorem facilis minima, maxime rerum veritatis porro
-          inventore, magnam quas.
+          Projeto node.Js com express e Typescript para criação de uma API, com
+          CRUDS destinados para a administração de uma loja de artigos
+          medievais. Projeto realizado com paradigma de orientação a objetos
+          (POO) e containeralizado com docker possuindo algumas variaveis de
+          ambientes necessarias para o funcionamento do banco de dados e na
+          autenticação feita por JWT.
         </p>
         <button type="button">
-          <a href="#">Ver projeto online</a>
+          <a
+            href="https://github.com/guiduzera/Trybesmith"
+            target="_blank"
+            style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}
+            rel="noreferrer"
+          >
+            Ver código <AiOutlineGithub />
+          </a>
         </button>
       </main>
     </DetailsProjects>

@@ -12,7 +12,7 @@ interface PropsItem {
 function ProjetoComponent({ title, type, imgLink, path }: PropsItem) {
   return (
     <Container imgUrl={imgLink}>
-      <Link href={`/projetos/${path}`}>
+      <Link href={`/projetos/${path}`} legacyBehavior>
         <a>
           <div className="overlay" />
           <section>

@@ -2,15 +2,20 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
   width: 100%;
+  #alura {
+    width: 41rem;
+  }
   > section {
-    .company:hover {
-      color: ${({ theme }) => theme.primary};
+    .certify:hover {
       transform: scale(0.95);
+      > h2 {
+        color: ${({ theme }) => theme.primary};
+      }
     }
     width: 100%;
     margin-top: 7rem;
     display: flex;
-    gap: 5rem;
+    gap: 1rem;
     padding-bottom: 8rem;
     border-bottom: 3px solid ${({ theme }) => theme.primary};
     @media (max-width: 1000px) {
@@ -25,35 +30,25 @@ export const Container = styled.section`
 `;
 
 export const ContainerItem = styled.div`
-  img {
-    width: 8rem;
-    height: 8rem;
-  }
-  a {
-    color: ${({ theme }) => theme.secondary};
-  }
-  > a:visited {
-    color: ${({ theme }) => theme.secondary};
-  }
   > div {
     background: ${({ theme }) => theme.gradient};
     padding: 1rem;
     padding-top: 2.5rem;
     height: 15rem;
     display: flex;
+    gap: 1rem;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     max-width: 19rem;
     transition: 0.5s;
-    h1 {
-      color: ${({ theme }) => theme.primary};
-      font-size: 1.5rem;
+    rgin-bottom: 1.5rem;
     }
-    p {
-      color: ${({ theme }) => theme.textLight};
+    h2 {
+      color: ${({ theme }) => theme.secondary};
       font-size: 1rem;
       font-weight: 300;
+      margin-bottom: 1rem;
     }
   }
   &:hover > div {

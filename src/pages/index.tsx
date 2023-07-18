@@ -10,6 +10,7 @@ import Conhecimentos from '../components/conhecimentos';
 import FormContato from '../components/FormContato';
 import Footer from '../components/Rodape/Footer';
 import 'aos/dist/aos.css';
+import Certificados from '../components/Certificados';
 
 export default function Home() {
   useEffect(() => {
@@ -35,6 +36,7 @@ export default function Home() {
       <Header />
       <main className="container">
         <HomeHero />
+        <Certificados />
         <Experience />
         <Projetos />
         <Conhecimentos />

@@ -1,26 +1,21 @@
+/* eslint-disable react/require-default-props */
 import Link from 'next/link';
 import { ContainerItem } from './styles';
 
 interface ItemProps {
   title: string;
-  subtitle: string;
-  logo: string;
   link: string;
+  photo: string;
+  id?: string;
 }
 
-export default function ExperienceItem({
-  title,
-  logo,
-  subtitle,
-  link
-}: ItemProps) {
+export default function CertificadoItem({ title, link, photo, id }: ItemProps) {
   return (
     <ContainerItem data-aos="fade-up">
       <Link href={link} target="blank">
-        <div className="company">
-          <h1>{title}</h1>
-          <p>{subtitle}</p>
-          <img src={logo} alt="logo" />
+        <div className="certify">
+          <h2>{title}</h2>
+          <img id={id} src={photo} alt="certify" />
         </div>
       </Link>
     </ContainerItem>

@@ -1,11 +1,11 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
+import Image from 'next/image';
 import { Container, TextContainer, InfosContainer, CodeItem } from './styles';
-import picture from '../../assets/perfilGithub.jpeg';
 
 export default function HomeHero() {
   return (
     <Container data-aos="fade-up">
-      <img src={picture} alt="my pic" />
+      <Image src="/my-profile.jpg" alt="hero" width={400} height={400} />
       <div>
         <TextContainer>
           <h1>Olá</h1>
@@ -30,7 +30,7 @@ export default function HomeHero() {
                 className="payload
               "
               >
-                18
+                19
               </span>
             </div>
             <div>

@@ -22,7 +22,7 @@ export default function LinkHeader({ title, path, includes = false }: Props) {
 
   return (
     <LinkContainer isActive={verifyIfTrue()}>
-      <Link href={path}>
+      <Link href={path} legacyBehavior>
         <a>{title}</a>
       </Link>
     </LinkContainer>

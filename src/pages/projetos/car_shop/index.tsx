@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Head from 'next/head';
+import { AiOutlineGithub } from 'react-icons/ai';
 import BannerProjeto from '../../../components/BannerProjeto';
 import Header from '../../../components/Header';
 import { DetailsProjects } from '../../../styles/ProjetoStyles';
@@ -24,19 +25,27 @@ export default function index() {
       </Head>
       <Header />
       <BannerProjeto
-        title="recipe-app"
-        imgLink="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
-        type="App front-end"
+        title="car_shop"
+        imgLink="/car_shop.png"
+        type="App back-end"
       />
       <main>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          quaerat aut, sed sapiente libero asperiores doloremque saepe unde
-          eveniet expedita dolorem facilis minima, maxime rerum veritatis porro
-          inventore, magnam quas.
+          Aplicação desenvolvida com o intuito de simular um e-commerce de
+          carros e motos. Nela é possível cadastrar, editar, excluir e filtrar
+          de várias formas os dados dos veículos. Também conta com testes de
+          integração. Algumas das tecnologias utilizadas foram: NodeJS, Express,
+          MongoDB, Typescript, Docker, entre outras.
         </p>
         <button type="button">
-          <a href="#">Ver projeto online</a>
+          <a
+            href="https://github.com/guiduzera/car_shop"
+            target="_blank"
+            style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}
+            rel="noreferrer"
+          >
+            Ver código <AiOutlineGithub />
+          </a>
         </button>
       </main>
     </DetailsProjects>
