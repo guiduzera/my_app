@@ -26,7 +26,7 @@ export default function index() {
       <Header />
       <BannerProjeto
         title="bank-simulator"
-        imgLink="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
+        imgLink="/bankSimulator.png"
         type="App fullstack"
       />
       <main>

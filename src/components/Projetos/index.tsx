@@ -24,7 +24,7 @@ export default function Projetos() {
         <ProjetoItem
           title="Bank simulator"
           description="App fullstack"
-          imgUrl="/TFC.png"
+          imgUrl="/bankSimulator.png"
           path="/projetos/bank-simulator"
         />
         <ProjetoItem

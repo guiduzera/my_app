@@ -41,7 +41,7 @@ export default function index() {
         <ProjetoComponent
           title="bank-simulator"
           type="App fullstack"
-          imgLink="https://venngage-wordpress.s3.amazonaws.com/uploads/2020/08/Coming-Soon-Landing-Page.png"
+          imgLink="/bankSimulator.png"
           path="bank-simulator"
         />
         <ProjetoComponent
