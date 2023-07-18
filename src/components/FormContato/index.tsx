@@ -6,23 +6,14 @@ function FormContato() {
   return (
     <Container>
       <SectionTitle
-        title={
-          <>
-            Precisa dos
-            <br />
-            meus serviços?
-          </>
-        }
+        title={<>Precisa dos meus serviços?</>}
         description={
           <>
-            Preencha o formulário abaixo que
-            <br />
-            irei retornar em breve ou fale diretamete comigo pelo whatsapp
-            localizado no rodapé.
+            Preencha o formulário abaixo que irei retornar em breve ou fale
+            diretamete comigo pelo whatsapp localizado no rodapé.
           </>
         }
       />
-
       <Form />
     </Container>
   );

@@ -24,7 +24,7 @@ export const Container = styled.div`
       font-size: 2.5rem;
     }
 
-    h1 {
+    h2 {
       font-size: 1.8rem;
     }
   }
@@ -34,7 +34,7 @@ export const Container = styled.div`
       font-size: 1.8rem;
     }
 
-    h1 {
+    h2 {
       font-size: 1.2rem;
     }
   }
