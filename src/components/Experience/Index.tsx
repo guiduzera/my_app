@@ -6,7 +6,7 @@ export default function Experience() {
   return (
     <Container>
       <SectionTitle
-        title="08 meses de experiências"
+        title="08 meses de experiência"
         description="Onde trabalhei..."
       />
       <section>
