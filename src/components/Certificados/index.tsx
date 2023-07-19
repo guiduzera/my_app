@@ -10,7 +10,7 @@ export default function Certificados() {
         <CertificadoItem
           id="alura"
           photo="/certificado alura.png"
-          title="iniciante em programação"
+          title="Iniciante em programação"
           link="https://cursos.alura.com.br/degree/certificate/4321130b-9e20-4a36-a04c-4ba29bd815d8"
         />
         <CertificadoItem
@@ -25,12 +25,12 @@ export default function Certificados() {
         />
         <CertificadoItem
           photo="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/69622958"
-          title="back-end development"
+          title="Back-end development"
           link="https://www.credential.net/embed/169a1501-de9e-4862-b006-db912750d897"
         />
         <CertificadoItem
           photo="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/69622152"
-          title="computer science"
+          title="Computer science"
           link="https://www.credential.net/embed/8e7f992d-7c40-4125-88af-931f98ef9fe1"
         />
         <CertificadoItem

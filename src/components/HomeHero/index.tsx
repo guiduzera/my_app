@@ -9,7 +9,7 @@ export default function HomeHero() {
       <div>
         <TextContainer>
           <h1>Olá</h1>
-          <h2>me chamo Guilherme</h2>
+          <h2>Me chamo Guilherme</h2>
         </TextContainer>
         <InfosContainer>
           <CodeItem data-aos="zoom-in">

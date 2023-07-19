@@ -5,7 +5,10 @@ import { Container } from './styles';
 export default function Experience() {
   return (
     <Container>
-      <SectionTitle title="08 meses" description="de experiência" />
+      <SectionTitle
+        title="08 meses de experiências"
+        description="Onde trabalhei..."
+      />
       <section>
         <ExperienceItem
           title="ASAS Group"
