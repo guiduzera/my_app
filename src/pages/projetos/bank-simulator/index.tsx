@@ -26,7 +26,7 @@ export default function index() {
       <Header />
       <BannerProjeto
         title="bank-simulator"
-        imgLink="/bankSimulator.png"
+        imgLink="/BankLogin.png"
         type="App fullstack"
       />
       <main>

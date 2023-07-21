@@ -41,7 +41,7 @@ export default function index() {
         <ProjetoComponent
           title="bank-simulator"
           type="App fullstack"
-          imgLink="/bankSimulator.png"
+          imgLink="/BankLogin.png"
           path="bank-simulator"
         />
         <ProjetoComponent
