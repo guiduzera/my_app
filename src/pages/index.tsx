@@ -11,6 +11,7 @@ import FormContato from '../components/FormContato';
 import Footer from '../components/Rodape/Footer';
 import 'aos/dist/aos.css';
 import Certificados from '../components/Certificados';
+import DownloadButton from '../components/DownloadBotton';
 
 export default function Home() {
   useEffect(() => {
@@ -41,6 +42,7 @@ export default function Home() {
         <Projetos />
         <Conhecimentos />
         <FormContato />
+        <DownloadButton />
         <Footer />
       </main>
     </HomeContainer>

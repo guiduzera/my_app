@@ -34,7 +34,7 @@ export default function Projetos() {
           path="/projetos/car_shop"
         />
       </section>
-      <button type="button">
+      <button type="button" data-aos="flip-left">
         <Link href="/projetos" legacyBehavior>
           <a>ver todos os projetos</a>
         </Link>

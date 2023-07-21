@@ -4,7 +4,6 @@ import styled from 'styled-components';
 export const Container = styled.footer`
   width: 100%;
   display: flex;
-  margin-top: 10rem;
   border-top: 1px solid ${({ theme }) => theme.backgroundLight};
   height: 5rem;
   align-items: center;
