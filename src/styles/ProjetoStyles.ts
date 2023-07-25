@@ -66,6 +66,10 @@ export const DetailsProjects = styled.div`
       font-weight: 300;
       text-align: justify;
     }
+    .divButton {
+      display: flex;
+      gap: 1rem;
+    }
     button {
       background: ${({ theme }) => theme.primary};
       padding: 0.8rem 3rem;

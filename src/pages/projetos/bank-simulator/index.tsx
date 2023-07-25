@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Head from 'next/head';
 import { AiOutlineGithub } from 'react-icons/ai';
+import { MdWeb } from 'react-icons/md';
 import BannerProjeto from '../../../components/BannerProjeto';
 import Header from '../../../components/Header';
 import { DetailsProjects } from '../../../styles/ProjetoStyles';
@@ -35,16 +36,28 @@ export default function index() {
           consigam criar suas contas e realizar transferências internas entre si
           simulando a movimentação de um banco.
         </p>
-        <button type="button">
-          <a
-            href="https://github.com/guiduzera/Bank-Simulator"
-            target="_blank"
-            style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}
-            rel="noreferrer"
-          >
-            Ver código <AiOutlineGithub />
-          </a>
-        </button>
+        <div className="divButton">
+          <button type="button">
+            <a
+              href="https://github.com/guiduzera/Bank-Simulator"
+              target="_blank"
+              style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}
+              rel="noreferrer"
+            >
+              Ver código <AiOutlineGithub />
+            </a>
+          </button>
+          <button type="button">
+            <a
+              href="https://like-bit-production.up.railway.app/"
+              target="_blank"
+              style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}
+              rel="noreferrer"
+            >
+              Abrir na Web <MdWeb />
+            </a>
+          </button>
+        </div>
       </main>
     </DetailsProjects>
   );
