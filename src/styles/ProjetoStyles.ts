@@ -55,6 +55,10 @@ export const DetailsProjects = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100%;
+  .button-icon {
+    width: 2rem;
+    height: 2rem;
+  }
   > main {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -71,6 +75,11 @@ export const DetailsProjects = styled.div`
       gap: 1rem;
     }
     button {
+      gap: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
       background: ${({ theme }) => theme.primary};
       padding: 0.8rem 3rem;
       border-radius: 0.5rem;
@@ -92,10 +101,14 @@ export const DetailsProjects = styled.div`
       p {
         font-size: 1rem;
       }
+      .button-icon {
+        width: 1rem;
+        height: 1rem;
+      }
       button {
-        padding: 0.7rem 2rem;
+        padding: 0.7rem;
         a {
-          font-size: 0.9rem;
+          font-size: 0.7rem;
         }
       }
     }

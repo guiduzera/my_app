@@ -44,18 +44,19 @@ export default function index() {
               style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}
               rel="noreferrer"
             >
-              Ver código <AiOutlineGithub />
+              Ver código...
             </a>
+            <AiOutlineGithub className="button-icon" />
           </button>
           <button type="button">
             <a
               href="https://like-bit-production.up.railway.app/"
               target="_blank"
-              style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}
               rel="noreferrer"
             >
-              Abrir na Web <MdWeb />
+              Abrir na Web!
             </a>
+            <MdWeb className="button-icon" />
           </button>
         </div>
       </main>
