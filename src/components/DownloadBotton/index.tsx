@@ -3,7 +3,7 @@ import { Button } from './styles';
 
 export default function DownloadButton() {
   return (
-    <Button data-aos="fade-up">
+    <Button>
       <button type="button">
         <a href="/Curriculo.pdf" download="Currículo_Guilherme.pdf">
           Baixe meu currículo aqui!
