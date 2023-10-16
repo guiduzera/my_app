@@ -5,7 +5,7 @@ export default function DownloadButton() {
   return (
     <Button>
       <button type="button">
-        <a href="/Currículo Atualizado.pdf" download="Currículo_Guilherme.pdf">
+        <a href="/Curriculo att.pdf" download="Currículo_Guilherme.pdf">
           Baixe meu currículo aqui!
         </a>
       </button>
